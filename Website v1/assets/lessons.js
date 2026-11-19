@@ -33,6 +33,11 @@ window.COURSE = {
       file: "03-template.html",
       title: "Lesson template (copy me)",
       summary: "A blank lesson showing how to write your own."
+    },
+    {
+      file: "IFRS-1.html",
+      title: "Test (don't copy me)",
+      summary: "I dont know what im doing lol"
     }
   ]
 };

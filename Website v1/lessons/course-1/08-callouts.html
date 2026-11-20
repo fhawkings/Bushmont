@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../assets/style.css">
+</head>
+<!-- Edit this lesson by changing the markdown between the <script> tags below.
+     data-file must match this file's path and its line in assets/courses.js -->
+<body data-page="lesson" data-root="../.." data-file="course-1/08-callouts.html">
+
+<script type="text/markdown" id="lesson-md">
+## Callouts & notes
+
+Use these to pull the reader's eye to something that matters. The simplest is a
+plain markdown note — just start a line with `>`:
+
+> A plain note box. Good for a quick tip or reminder.
+
+For stronger signals, paste one of these coloured **callouts**:
+
+<div class="callout"><div class="ic">💡</div><div><b>Tip</b><p>Keep each lesson to one idea — short pages read best.</p></div></div>
+
+<div class="callout warn"><div class="ic">⚠️</div><div><b>Watch out</b><p>Double-check any figures before you publish a lesson.</p></div></div>
+
+<div class="callout danger"><div class="ic">⛔</div><div><b>Important</b><p>Explain rules in your own words — never paste a standard's exact text.</p></div></div>
+
+### Copy this
+
+```html
+<div class="callout">
+  <div class="ic">💡</div>
+  <div><b>Tip</b><p>Your message here.</p></div>
+</div>
+```
+
+Swap the class `callout` for `callout warn` or `callout danger` to change the
+colour. Change the emoji to any icon you like.
+
+</script>
+
+<script src="../../assets/marked.js"></script>
+<script src="../../assets/courses.js"></script>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

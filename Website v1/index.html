@@ -3,21 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Course</title>
+  <title>Bushmont — Courses</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
-<!-- data-page="home" tells the engine this is the home page.
-     Edit the welcome text below (it's markdown). -->
+<!-- The home page. It lists every course from assets/courses.js.
+     You don't edit this file to add courses — edit assets/courses.js. -->
 <body data-page="home" data-root=".">
-
-  <script type="text/markdown" id="intro-md">
-Write a sentence or two here describing your course — what it covers and who
-it's for. Then pick a lesson below to begin.
-  </script>
-
-  <!-- The engine builds the rest of the page from your lesson list. -->
   <script src="assets/marked.js"></script>
-  <script src="assets/lessons.js"></script>
+  <script src="assets/courses.js"></script>
   <script src="assets/site.js"></script>
 </body>
 </html>

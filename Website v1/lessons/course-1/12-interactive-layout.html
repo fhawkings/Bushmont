@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../assets/style.css">
+</head>
+<!-- Edit this lesson by changing the markdown between the <script> tags below.
+     data-file must match this file's path and its line in assets/courses.js -->
+<body data-page="lesson" data-root="../.." data-file="course-1/12-interactive-layout.html">
+
+<script type="text/markdown" id="lesson-md">
+## Accordions, steps & columns
+
+### Accordions (click to expand)
+
+Great for FAQs or optional detail. These use the browser's built-in
+`<details>` — no code required beyond the tags.
+
+<details><summary>What is this section for?</summary><div class="body"><p>It shows layouts you can copy into your own lessons.</p></div></details>
+
+<details><summary>Can I change the colours?</summary><div class="body"><p>Yes — the brand colours live at the top of <code>assets/style.css</code>.</p></div></details>
+
+### A numbered flow
+
+<ol class="steps">
+  <li><b>Plan</b>Decide the one idea the lesson teaches.</li>
+  <li><b>Draft</b>Write it in markdown, keep it short.</li>
+  <li><b>Polish</b>Drop in a callout or card where it helps.</li>
+</ol>
+
+### Two columns of text
+
+<div class="cols">
+  <p>Columns suit longer passages where you want more on screen at once. The text flows from the first column into the second automatically.</p>
+  <p>On a narrow phone screen it collapses back to a single column, so it stays readable everywhere without any extra work.</p>
+</div>
+
+### A labelled divider
+
+<div class="divider-label">Part two</div>
+
+### Copy this
+
+```html
+<details>
+  <summary>Question?</summary>
+  <div class="body"><p>Answer.</p></div>
+</details>
+
+<ol class="steps">
+  <li><b>Step name</b>What to do.</li>
+  <li><b>Step name</b>What to do.</li>
+</ol>
+
+<div class="cols">
+  <p>First passage…</p>
+  <p>Second passage…</p>
+</div>
+
+<div class="divider-label">Section label</div>
+```
+
+> Mix and match any of these across the **Design patterns** lessons to build a
+> page that fits what you're teaching.
+
+</script>
+
+<script src="../../assets/marked.js"></script>
+<script src="../../assets/courses.js"></script>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

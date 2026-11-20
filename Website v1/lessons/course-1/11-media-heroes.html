@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../assets/style.css">
+</head>
+<!-- Edit this lesson by changing the markdown between the <script> tags below.
+     data-file must match this file's path and its line in assets/courses.js -->
+<body data-page="lesson" data-root="../.." data-file="course-1/11-media-heroes.html">
+
+<script type="text/markdown" id="lesson-md">
+## Media, heroes & quotes
+
+### Figures with a caption
+
+Put an image in a `figure` so it gets a tidy caption. (The grey box below is a
+placeholder — swap it for an `<img>`.)
+
+<figure>
+  <div class="ph">Your image goes here</div>
+  <figcaption>A caption describing the image.</figcaption>
+</figure>
+
+### Image beside text
+
+The `media` layout puts a picture and words side by side, stacking on a phone.
+
+<div class="media">
+  <div class="ph">Image</div>
+  <div>
+    <h3 style="margin-top:0">A feature</h3>
+    <p>Explain it here. Good for introducing a concept with a diagram next to it.</p>
+  </div>
+</div>
+
+### A hero banner
+
+<div class="hero">
+  <h3>Ready to begin?</h3>
+  <p>Use a hero to open a course or highlight a call to action.</p>
+  <a class="btn" href="#">Start the course</a>
+</div>
+
+### A pull quote
+
+<p class="pullquote">"The best lesson is the <span>shortest one</span> that still makes the point."</p>
+
+### Copy this
+
+```html
+<figure>
+  <div class="ph">Your image goes here</div>
+  <figcaption>A caption.</figcaption>
+</figure>
+
+<div class="media">
+  <div class="ph">Image</div>
+  <div><h3>Heading</h3><p>Text beside the image.</p></div>
+</div>
+
+<div class="hero">
+  <h3>Heading</h3><p>Supporting line.</p>
+  <a class="btn" href="#">Button</a>
+</div>
+
+<p class="pullquote">"A short <span>highlighted</span> quote."</p>
+```
+
+To use a real image, replace `<div class="ph">…</div>` with
+`<img src="../../assets/your-image.jpg" alt="description">`.
+
+</script>
+
+<script src="../../assets/marked.js"></script>
+<script src="../../assets/courses.js"></script>
+<script src="../../assets/site.js"></script>
+</body>
+</html>

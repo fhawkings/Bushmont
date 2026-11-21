@@ -14,12 +14,12 @@
 window.SITE = {
   title:    "Bushmont",
   subtitle: "Courses",
-  intro:    "Choose a course below to get started."
+  intro:    "Choose a course below to get started!!!"
 };
 
 window.COURSES = [
   {
-    title:   "First course",
+    title:   "First course - Example Don't Edit",
     summary: "A one-line description of this course, shown on the home page.",
     sections: [
       {
@@ -57,7 +57,7 @@ window.COURSES = [
     ]
   },
   {
-    title:   "Second course",
+    title:   "CSRD",
     summary: "Another course. Delete this one in assets/courses.js if you only need one.",
     sections: [
       {
@@ -71,6 +71,27 @@ window.COURSES = [
         lessons: [
           { title: "A deeper topic", file: "course-2/02-deeper-topic.html" },
           { title: "Lesson template (copy me)", file: "course-2/03-template.html" },
+        ]
+      },
+    ]
+  },
+  {
+    title:   "IFRS",
+    summary: "IFRS",
+    sections: [
+      {
+        title: "Introduction",
+        lessons: [
+          { title: "Foreword", file: "IFRS/001-foreword.html" },
+          { title: "Introduction", file: "IFRS/002-introduction.html" },
+          { title: "Overview", file: "IFRS/003-overview.html" },
+        ]
+      },
+      {
+        title: "Going further",
+        lessons: [
+          { title: "A deeper topic", file: "IFRS/02-deeper-topic.html" },
+          { title: "Lesson template (copy me)", file: "IFRS/03-template.html" },
         ]
       },
     ]

@@ -83,15 +83,18 @@ window.COURSES = [
         title: "Introduction",
         lessons: [
           { title: "Foreword", file: "IFRS/001-foreword.html" },
-          { title: "Introduction", file: "IFRS/002-introduction.html" },
-          { title: "Overview", file: "IFRS/003-overview.html" },
+          { title: "Introduction", file: "IFRS/002-introduction2.html" },
+          { title: "Introduction", file: "IFRS/003-introduction3.html" },
+          { title: "Introduction", file: "IFRS/004-introduction4.html" },
+          { title: "Introduction", file: "IFRS/005-introduction5.html" },
+          { title: "Introduction", file: "IFRS/006-introduction6.html" },
         ]
       },
       {
-        title: "Going further",
+        title: "Section1",
         lessons: [
-          { title: "A deeper topic", file: "IFRS/02-deeper-topic.html" },
-          { title: "Lesson template (copy me)", file: "IFRS/03-template.html" },
+          { title: "A deeper topic", file: "IFRS/101-section2.html" },
+          { title: "A deeper topic", file: "IFRS/102-section2.html" },
         ]
       },
     ]

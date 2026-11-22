@@ -83,18 +83,23 @@ window.COURSES = [
         title: "Introduction",
         lessons: [
           { title: "Foreword", file: "IFRS/001-foreword.html" },
-          { title: "Introduction", file: "IFRS/002-introduction2.html" },
-          { title: "Introduction", file: "IFRS/003-introduction3.html" },
-          { title: "Introduction", file: "IFRS/004-introduction4.html" },
-          { title: "Introduction", file: "IFRS/005-introduction5.html" },
-          { title: "Introduction", file: "IFRS/006-introduction6.html" },
+          { title: "Video Intorduction", file: "IFRS/102-introduction2.html" },
+          { title: "Course Outline and Table of Contents", file: "IFRS/103-introduction3.html" },
+          { title: "What are S1 and S2, and Key Terms", file: "IFRS/104-introduction4.html" },
+          { title: "Aim of the Regulation", file: "IFRS/105-introduction5.html" },
+          { title: "Scope of the Regulation", file: "IFRS/106-introduction6.html" },
+          { title: "Conceptual Foundations", file: "IFRS/107-introduction7.html" },
         ]
       },
       {
-        title: "Section1",
+        title: "Core Content",
         lessons: [
-          { title: "A deeper topic", file: "IFRS/101-section2.html" },
-          { title: "A deeper topic", file: "IFRS/102-section2.html" },
+          { title: "Core Regulation", file: "IFRS/201-section2.html" },
+          { title: "Core Regulaiton2", file: "IFRS/202-section2.html" },
+          { title: "Attributes of the Regulation", file: "IFRS/203-section2.html" },
+          { title: "Attributes of the Regulaiton2", file: "IFRS/204-section2.html" },
+          { title: "Requirments of the Regulation", file: "IFRS/205-section2.html" },
+          { title: "Requriments of the Regulation2", file: "IFRS/206-section2.html" },
         ]
       },
     ]

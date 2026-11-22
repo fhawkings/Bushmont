@@ -221,3 +221,11 @@ hr{border:none;border-top:1px solid var(--line);margin:2.4rem 0}
 .wrap .divider-label{display:flex;align-items:center;gap:1rem;color:var(--muted);font-size:.78rem;
   text-transform:uppercase;letter-spacing:.06em;margin:2.2rem 0}
 .wrap .divider-label::before,.wrap .divider-label::after{content:"";flex:1;height:1px;background:var(--line)}
+
+/* Glossary / key terms box */
+.wrap .glossary{background:var(--accent-soft);border-radius:12px;padding:1.1rem 1.3rem;margin:1.4rem 0}
+.wrap .glossary h4{margin:0 0 .5rem;font-size:1.05rem}
+.wrap .glossary dl{margin:0}
+.wrap .glossary dt{font-weight:700;margin-top:.75rem}
+.wrap .glossary dt:first-of-type{margin-top:0}
+.wrap .glossary dd{margin:.1rem 0 0}

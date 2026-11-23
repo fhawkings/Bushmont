@@ -58,19 +58,27 @@ window.COURSES = [
   },
   {
     title:   "CSRD",
-    summary: "Another course. Delete this one in assets/courses.js if you only need one.",
+    summary: "The EU's Corporate Sustainability Reporting Directive: what it requires, who it applies to, and how to report under it.",
     sections: [
       {
         title: "Introduction",
         lessons: [
-          { title: "Overview", file: "course-2/01-overview.html" },
+          { title: "Course overview", file: "CSRD/001-course-overview.html" },
+          { title: "Video introduction", file: "CSRD/102-video-introduction.html" },
+          { title: "Contents and course outline", file: "CSRD/103-course-outline.html" },
+          { title: "What is the CSRD? Key terms", file: "CSRD/104-what-is-csrd-key-terms.html" },
+          { title: "Aim of the regulation", file: "CSRD/105-aim-of-the-regulation.html" },
+          { title: "Scope of the regulation", file: "CSRD/106-scope-of-the-regulation.html" },
+          { title: "Conceptual foundations", file: "CSRD/107-conceptual-foundations.html" },
         ]
       },
       {
-        title: "Going further",
+        title: "Core Content",
         lessons: [
-          { title: "A deeper topic", file: "course-2/02-deeper-topic.html" },
-          { title: "Lesson template (copy me)", file: "course-2/03-template.html" },
+          { title: "Core regulation", file: "CSRD/201-core-regulation.html" },
+          { title: "Attributes of the regulation", file: "CSRD/202-attributes-of-the-regulation.html" },
+          { title: "Requirements of the regulation", file: "CSRD/203-requirements-of-the-regulation.html" },
+          { title: "Cheat sheet and deep dive (optional)", file: "CSRD/204-cheat-sheet-and-deep-dive.html" },
         ]
       },
     ]
